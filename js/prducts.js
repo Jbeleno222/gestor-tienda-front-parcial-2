@@ -18,7 +18,7 @@ fetch(`${API}/products`)
     });
 
 function showDetail(id) {
-    fetch(`https://fakeapi.platzi.com/products/${id}`)
+    fetch(`https://fakeapi.platzi.com/api/v1products/${id}`)
         .then(res => res.json())
         .then(product => {
             document.getElementById('modalTitle').innerText = product.title;

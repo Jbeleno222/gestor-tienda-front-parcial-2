@@ -16,7 +16,7 @@ fetch(`${API}/categories`)
     });
 
 function showCategory(id) {
-    fetch(`https://fakeapi.platzi.com/categories/${id}`)
+    fetch(`https://fakeapi.platzi.com/api/v1    categories/${id}`)
         .then(res => res.json())
         .then(cat => {
             document.getElementById('modalTitle').innerText = cat.name;
