@@ -8,3 +8,10 @@ instrucciones:
 2. abrir la carpeta del proyecto
 3. abrir el archivo index.html
 4. disfrutar la pagina
+
+evidencias:
+
+![alt text](image-2.png)
+![alt text](image.png)
+![alt text](image-2.png)
+![alt text](image-3.png)
